@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+.container-fluid{
+
+}
+.navbar-brand{
+	font-family: 'Great Vibes', cursive;
+	font-size: 2rem !important;
+
+}
+.container .col-md-6 .text-primary{
+	/*font-family: 'Great Vibes', cursive;*/
+
+}
+.jumbotron{
+
+}
+.about .foto img{
+	filter: saturate(10%);
+}
+
+.card2{
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 23%, rgba(255, 0, 138, 1) 100%);
+}
+.card1{
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 23%, rgba(0, 255, 214, 1) 100%);
+}
+.card3{
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 23%, rgba(188, 0, 255, 1) 100%);
+}
+
+#services{
+	box-sizing: border-box;
+}
+#footer{
+	padding: none !important;
+}
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+	
+
+}
+
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+	#hire button .button{
+		float:right;
+	}
+
+}
+
